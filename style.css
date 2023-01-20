@@ -32,12 +32,12 @@ main {
     }
 
 .mensagem {
-    background: linear-gradient(rgb(98, 69, 16), rgb(31, 31, 66));
+    background: linear-gradient(rgb(98, 69, 16), rgb(12, 12, 235));
     background-image: url(/imagens/lateral.png);
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
-    color: #0A3871;
+    color: #fe5107;
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
@@ -64,6 +64,11 @@ main {
     margin-left: 30px;
     width: 328px;
 }
+.btn-desencriptar:hover {
+    background: #0A3871;
+    color: #ce8d3371;
+    transition: 1s;
+}
 
 .btn-encriptar {
     background-color: #0A3871;
@@ -74,6 +79,12 @@ main {
     height: 67px;
     width: 328px;
 
+} 
+
+.btn-encriptar:hover {
+    background: #579bef98;
+    color: #021d24d5;
+    transition: 1s;
 }
 
 .btn-copiar {
