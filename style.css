@@ -32,11 +32,33 @@ main {
 ::placeholder {color: #0A3871;}
     .texto-area:focus {
         outline: none;
-    }
+}
+
+.aviso1{
+    text-align: center;
+    height: 20px;
+    width: 400px;
+    
+}
+
+.aviso {
+    font-size: 20px;
+    color: #495057;
+    position: relative;
+    
+}
+
+p {
+    position: relative;
+    font-size: 15px;
+    color: #495057;
+    left: 820px;
+    bottom: 190px;
+}
 
 .mensagem {
-    background: white;
-    background-image: url(/imagens/lateral.png);
+    background: transparent;
+    background-image: url(./imagens/lateral.png);
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
@@ -44,8 +66,9 @@ main {
     margin-left: 98px;
     margin-top: 10px;
     padding-left: 30px;
-    position: fixed;
+    position: relative;
     resize: none;
+   
 }
 
 .mensagem:focus {
@@ -97,9 +120,9 @@ main {
     cursor: pointer;
     height: 67px;
     width: 336px;
-    position: absolute;
-    margin-left: 125px;
-    margin-top: 420px; 
+    position: relative;
+    margin-left: -380px;
+    margin-bottom: -150px; 
 }
 
 .btn-copiar:hover {
@@ -119,9 +142,5 @@ h6 {
     font-size: 15px;
     display: block;
     
-    }
-
-
-
-
+}
 
