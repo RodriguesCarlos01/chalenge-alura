@@ -12,17 +12,17 @@ function criptografar() {
 
    var resultCripto = texto.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat")
 
-    return textoSaida.innerHTML = resultCripto 
+    return textoSaida.innerHTML = resultCripto
 
 }
 
-function descriptografar() {
+function descriptografar() {  
     var texto = entradaTexto.value
 
     var resultDescripto = texto.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u")
 
     return textoSaida.innerHTML = resultDescripto
-
+ 
 }
 
 function copiar(){
@@ -32,10 +32,10 @@ function copiar(){
         botaoCopiar.innerHTML = "Copiado"
         botaoCopiar.disable = true
     })
-    .catch(()=> {alert("Erro")
+    .catch(()=> {console.log("Erro")
     })
 }
 
-botaoCrip.onclick = criptografar;
+botaoCrip.onclick = criptografar; 
 botaoDescrip.onclick = descriptografar;
 botaoCopiar.onclick = copiar;

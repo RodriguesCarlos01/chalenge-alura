@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codificador e Decodificador de texo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link rel ="stylesheet" type="text/css"  href="style.css">
     
 </head>
@@ -16,7 +16,7 @@
     <header>
         <img class="logoalura" src="./imagens/logo.png" alt="Logo da Alura">
     </header>
-    <main>
+    <main class="container" >
        
         <section>
                
@@ -30,21 +30,22 @@
                     <button onclick="criptografar()" class="btn-encriptar">Codificar</button>
                     <button onclick="descriptografar()" class="btn-desencriptar">Decodificar</button>
                 </div>
-                <div class="aviso1">
-                    <p class="aviso">Nenhuma mensagem encontrada</p>
-                    <p>Digite o texto que vc deseja criptografar ou decriptografar</p>
-                </div> 
+                
 
         </section>
-        
         <section>
             
-            <textarea class="mensagem"  cols="20" rows="10"></textarea> 
+            <img class="imagem-lateral" src="./imagens/lateral.png" alt="Boneco com uma lupa na mão">
             
-            
-            <button onclick="copiar()" class="btn-copiar">Copiar</button>
+                <textarea class="mensagem"  cols="20" rows="10" ></textarea> 
+            <div class="aviso2" >  
+               <p>Nenhum texto foi enctrado</p>
+               <P>Digite o texto que deseja criptografar ou decriptografar</P>
+            </div>
 
-            
+            </div>
+            <button onclick="copiar()" class="btn-copiar">Copiar</button> 
+        
         </section>
         
     </main>
